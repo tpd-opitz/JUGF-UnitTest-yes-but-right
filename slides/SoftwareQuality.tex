@@ -1,0 +1,37 @@
+%% (c) 2016 OPITZ CONSULTING GmbH Thomas Papendieck
+\documentclass[aspectratio=169]{beamer}
+\input{oc-ci.tex}
+
+\newcommand{\whitepause}{\addtocounter{beamerpauses}{-1}\pause\color<+>{white}}
+%%\setbeamersize{frametitle margin left=30pt}
+\setbeamersize{text margin left=30pt}
+\setbeamersize{text margin right=30pt}
+\begin{document}
+\title{UnitTests?  Yes, but right!}  
+\author{Thomas Papendieck}
+\date{July 8th 2016} 
+
+\begin{frame}%[plain]
+\input{oc-title.tex}
+ 
+{ \textbf{Thomas Papendieck}\\Senior--Consultant\\\vspace{2em}OPITZ CONSULTING GmbH\vspace{2em}}
+
+{Codecentric\\Frankfurt (Main)}
+\end{frame}
+
+\begin{frame}
+\frametitle{Agenda}\tableofcontents
+\end{frame} 
+
+
+%\subfile{Why_do_we_concern}
+
+\subfile{Requirements_on_UnitTests}
+
+\subfile{Requirements_on_tested_code}
+
+\subfile{How_to_write_unittests}
+
+\section{Hands on}
+
+\end{document}
