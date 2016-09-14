@@ -60,7 +60,10 @@
 \begin{frame}{What enables dependency replacement?} 
 	\begin{itemize}
 		\item separate dependency instantiation from business logic
-		\item no call to \texttt{new} operator
+			\begin{itemize}
+				\item no call to \texttt{new} operator
+				\item use factory objects
+			\end{itemize}
 		\item introduce ''seams''
 			\begin{itemize}
 				\item dependency injection
@@ -79,7 +82,7 @@
 		\item SoC/SRP (Feature envy)
 		\item Law of Demeter
 		\item DRY
-		\item same level of abstraction
+%		\item same level of abstraction
 	\end{itemize}
 	\footnotetext[1]{''Clean Code'' by Robert C Martin, ISBN-13: 978-0132350884\vspace*{2em}}
 \end{frame}
